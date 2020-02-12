@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="components/loader.js"></script>
     
-    <link rel="stylesheet" href="components/loader.js">
-    <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="components/loader.css">
-    <script type="text/javascript" src="components/bootstrap/dist/bootstrap.min.css"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+    
+    <script src="components/loader.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    
 
 </head>
 <body>
@@ -57,6 +58,41 @@
     <br>
     <img src="https://www.infoescola.com/wp-content/uploads/2008/04/beija-flor-abelha-579510889.jpg" alt="Beija-flor">
     <div id="coisa"></div>-->
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="text-center">Cálculos</h1>
+          <div class="form-group">
+            <label id="val1" for="">Valor 1</label>
+            <input type="number" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <label id="val2" for="">Valor 2</label>
+            <input type="number" class="form-control">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <button id="somar" class="btn btn-primary btn-block">Somar</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <label for="">Resultado</label>
+            <input id="result" type="number" class="form-control" readonly>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="acao.js"></script>
 </body>
 </html>
