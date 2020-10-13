@@ -8,7 +8,7 @@ Este é o primeiro aplicativo que desenvolvo para a disciplina Programação de 
 
 <a href="#índice"><h1 align="center">Tela</h1></a>
 <p align="center">
-  <img alt="Em breve" width="300" />
+  <kbd><img width="300" src="https://i.ibb.co/809FX7D/monaca-App-Um.gif" /></kbd>
 </p>
 
 # [Instalação](#instalação)
